@@ -1,0 +1,11 @@
+.container-nav-media{
+    display: flex;
+    align-items: center;
+}
+
+.container-nav-media img{
+    width: 2.5vw;
+    margin-right: 1.4rem;
+
+    cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.map-container{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.map{
+    height: 5vh;
+}
+
+.map-metric{
+    height: 50vh;
+    width: 100%;
+}

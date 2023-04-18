@@ -1,0 +1,20 @@
+.container-nav{
+    width: 100vw;
+    height: 9vh;
+    background-color: #0C223D;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav_bar{
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img{
+    width: 12vw;
+}
+
