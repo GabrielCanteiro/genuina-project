@@ -1,16 +1,19 @@
 import React from 'react';
 import './Nav_middle.css'
+import { Link } from 'react-router-dom';
 
 const NavMiddle = () => (
-  <ul>
-    <li><a href="#">Igreja</a></li>
-    <li><a href="#">Ministérios</a></li>
-    <li><a href="#">Ao Vivo</a></li>
-    <li><a href="#">Agenda</a></li>
-    <li><a href="#">Dízimos e Ofertas</a></li>
-    <li><a href="#">Núcleos</a></li>
+  <div className="NavMiddle__container">
+    <ul>
+      <li><Link to={'/igreja'}>Igreja</Link></li>
+      <li><Link to={'/ministerios'}>Ministérios</Link></li>
+      <li><Link to={'/aovivo'}>Ao Vivo</Link></li>
+      <li><Link to={'/agenda'}>Agenda</Link></li>
+      <li><Link to={'/oferta'}>Dízimos e Ofertas</Link></li>
+      <li><Link to={'/nucleo'}>Núcleos</Link></li>
+    </ul>
+  </div>
 
-  </ul>
 );
 
 

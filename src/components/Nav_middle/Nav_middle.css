@@ -1,13 +1,13 @@
-ul{
+.NavMiddle__container ul{
     display: flex;
 }
 
-li{
+.NavMiddle__container li{
     list-style: none;
     padding: 1rem;
 }
 
-li a{
+.NavMiddle__container li a{
     color: white;
     text-decoration: none;
 }
