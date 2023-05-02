@@ -6,12 +6,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.21);
+    -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.21);
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.21);
 }
+
 .nav_bar{
     width: 90vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
 .logo img{

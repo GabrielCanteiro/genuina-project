@@ -1,0 +1,11 @@
+
+.home__container{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    margin-top: -8px;
+}
+
+
+

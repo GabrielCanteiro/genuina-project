@@ -1,11 +1,14 @@
 import React from 'react'
-import NavBar from '../../components/Nav_bar/Nav_bar'
 import './Home.css'
+import Slide from '../../components/Slide/Slide'
+import HomeAgenda from '../Agenda/HomeAgenda/HomeAgenda'
+
 
 const Home = () => {
   return (
-    <div className='container'>
-    Home
+    <div className='home__container'>
+      <Slide/>
+      <HomeAgenda/>
     </div>
   )
 }

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { GoogleMap, Marker, InfoWindow, useJsApiLoader } from '@react-google-maps/api';
+import { GoogleMap, Marker, useJsApiLoader } from '@react-google-maps/api';
 import loading from '../../assets/loading.svg'
 import blueDot from '../../assets/blueDot.png'
 import './Map.css'
@@ -62,9 +62,9 @@ const Map = () => {
          null 
          }
         {        
-        isLoaded ? 
+          isLoaded && !isLoading ?
         (
-          <div className=''>          
+          <div className='google_map'>          
             <GoogleMap
               mapContainerStyle={containerStyle}
               zoom={10}
@@ -95,7 +95,9 @@ const Map = () => {
 
         ) 
         : 
-        null
+        <div style={{ display: 'none' }}>
+            <GoogleMap />
+        </div>
       }
       </div>
     )

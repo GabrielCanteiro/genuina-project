@@ -7,7 +7,9 @@ function App() {
   return (
     <div>
       <NavBar/>
-      <Outlet/>
+      <div className="app__pages">
+        <Outlet/>
+      </div>
     </div>
   )
 }

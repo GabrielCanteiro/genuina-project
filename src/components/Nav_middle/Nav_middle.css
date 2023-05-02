@@ -11,3 +11,11 @@
     color: white;
     text-decoration: none;
 }
+
+.NavMiddle__container li a:hover{
+    padding-bottom: 17px;
+    border-bottom: 7px solid #225DAB;
+    transition: .5s;
+}
+
+
