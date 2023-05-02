@@ -1,0 +1,12 @@
+.container__card-agenda{
+    display: flex;
+
+    margin-bottom: 5vh;
+}
+
+.card__agenda{
+    height: 45vh;
+    width: 25%;
+
+    background-color: red;
+}
