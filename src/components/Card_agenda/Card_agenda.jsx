@@ -1,20 +1,21 @@
 import React from 'react'
 import './Card_agenda.css'
+import {AiOutlineCalendar} from "react-icons/ai"
 
-const Card_agenda = () => {
-
-  fetch('../../pages/Agenda/Agenda_bd.json').then((response)=>{
-    response.json().then((users)=> {
-      console.log(users)
-    })
-  })
-
+const Card_agenda = ({image, ministerio, title, description, horario}) => {
 
   return (
-    <div
-    className='container__card-agenda'>
+    <div className='container__card-agenda'>
       <div className="card__agenda">
-
+        <img src={image} />
+          <div className="content__ministerio">
+            <div className="card__ministerio_label">
+              <h3>{ministerio}</h3>
+            </div>
+            <h1>{title}</h1>
+            <p>{description}</p>
+            <h5><AiOutlineCalendar/> {horario}</h5>
+          </div>
       </div>
     </div>
   )

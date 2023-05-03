@@ -17,7 +17,6 @@
 
 .slick-dots{
     top: 85% !important;
-    z-index: 1;
 }
 
 .slick-dots li button:before {

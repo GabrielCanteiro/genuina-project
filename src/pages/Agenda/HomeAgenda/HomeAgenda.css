@@ -3,6 +3,9 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    background-color: transparent;
+
+    margin-bottom: 5vh;
 }
 .header__home_agenda{
     display: flex;
@@ -16,9 +19,14 @@
 .header__home_agenda span{
     height: .4rem;
     width: 80%;
-    background-color: blue;
+    background-color: #0267EB;
     border-radius: 2rem;
 }
 
+.cards__home_agenda{
+    display: flex;
+    overflow-x: auto;
+
+}
 
 
