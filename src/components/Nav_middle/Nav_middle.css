@@ -1,5 +1,6 @@
 .NavMiddle__container ul{
     display: flex;
+    font-size: 1.3rem;
 }
 
 .NavMiddle__container li{
