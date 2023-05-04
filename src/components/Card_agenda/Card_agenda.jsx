@@ -10,7 +10,7 @@ const Card_agenda = ({image, ministerio, title, description, horario}) => {
         <img src={image} />
           <div className="content__ministerio">
             <div className="card__ministerio_label">
-              <h3>{ministerio}</h3>
+              <button>{ministerio}</button>
             </div>
             <h1>{title}</h1>
             <p>{description}</p>

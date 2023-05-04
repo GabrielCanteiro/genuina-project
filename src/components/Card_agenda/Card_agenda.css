@@ -5,7 +5,7 @@
 
 .card__agenda{
     height: 61vh;
-    width: 17vw;
+    width: 245px;
     background-color: white;
     border-radius: .5rem;
     margin-right: 1vw;
@@ -26,12 +26,15 @@
     transition: .3s;
 }
 
-.card__ministerio_label{
-    border-bottom: 1px solid black;
-    width: 60%;
-}
-.card__ministerio_label h3{
+.card__ministerio_label button{
     font-size: .9rem;
+    padding: .5rem;
+    border-radius: .5rem;
+    border: none;
+    background-color: #EB7736;
+    color: white;
+    text-transform: capitalize;
+
 }
 
 .content__ministerio{
@@ -42,6 +45,8 @@
     margin-top: .5rem;
     height: 5vh;
     font-size: 1.3rem;
+    text-transform: capitalize;
+
 }
 
 .content__ministerio p{
@@ -51,9 +56,9 @@
 
 }
 
-
 .content__ministerio h5{
     border-top: 1px solid #1164ed ;
     padding-top: .6rem;
-    margin-top: 2rem;
+    margin-top: .7rem;
+    font-size: 1rem;
 }
