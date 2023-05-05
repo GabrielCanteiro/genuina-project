@@ -7,12 +7,13 @@ import './Map.css'
 const Map = () => {
 
   const containerStyle = {
-    width: '50vw',
-    height: '50vh'
+    width: '70vw',
+    height: '70vh'
   };
 
-  const [location, setLocation] = useState({lat:null, lng:null})
+  const [location, setLocation] = useState({lat:-23.316032, lng:-46.828083})
   const [isLoading, setIsLoading] = useState(true)
+  const [selectedLocation, setSelectedLocation] = useState(null)
 
   useEffect(()=>{
     navigator.geolocation.getCurrentPosition((position)=>{
@@ -67,26 +68,30 @@ const Map = () => {
           <div className='google_map'>          
             <GoogleMap
               mapContainerStyle={containerStyle}
-              zoom={10}
+              zoom={9}
               center={location}
               clickableIcons='true'
             >
               {Object.values(addresses).map(location => {
                   return (
-                      <Marker
-                          key={location.name}
-                          position={{ lat: location.lat, lng: location.lng }}
-                          onClick={() => handleMarkerClick(location)}
+                    <Marker
+                      key={location.name}
+                    
+                      position={{ lat: location.lat, lng: location.lng }}
+                      onClick={() => handleMarkerClick(location)}
                       />
+                    
+
+                    
                   )
               })}
               
-              {location.lat && location.lng && // check if user's location has been obtained
+              {location.lat && location.lng && 
                 <Marker
                   position={{ lat: location.lat, lng: location.lng }}
                   icon={{
                     url: blueDot,
-                    scaledSize: new window.google.maps.Size(30, 30), // set size of blue dot icon
+                    scaledSize: new window.google.maps.Size(30, 30), 
                   }}
                 />
               }
