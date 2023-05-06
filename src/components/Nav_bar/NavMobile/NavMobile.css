@@ -1,0 +1,77 @@
+.navMobile{
+    width: 100vw;
+    height: 9vh;
+    background-color: #0C223D;
+
+    display: flex;
+    position: fixed;
+    align-items: center;
+
+    top: 0;
+    z-index: 1;
+
+    -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.21);
+    -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.21);
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.21);
+}
+
+.navMobile__container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.navMobile__closed{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navMobile__closed img{
+    height: 40px;
+}
+.navMobile__closed i{
+    color: white;
+    font-size: 2rem;
+}
+.hide{
+    display: none;
+}
+
+.open{
+    position: absolute;
+    margin-top: 122vh;
+    width: 100%;
+    height: 113vh;
+    background-color: #0C223D;
+
+    display: flex; 
+    justify-content: center;
+}
+
+.navMobileRoutes{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.navMobileRoutes a{
+    padding: 1rem;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+    color: white;
+
+}
+
+.navMobileRoutes div{
+    border-bottom:none;
+}
+
+
+@media screen and (min-width: 1051px) {
+    .navMobile{
+        display: none;
+    }
+}

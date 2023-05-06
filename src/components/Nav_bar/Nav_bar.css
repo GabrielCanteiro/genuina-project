@@ -29,3 +29,8 @@
     width: 12vw;
 }
 
+@media screen and (max-width: 1050px){
+    .container-nav{display: none;
+    }
+}
+
