@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div className='container__footer'>
       <div className="footer__top">
-        <img src={logo} alt="" />
+        <img id='logo__footer' src={logo} alt="" />
         <div className="footer__social">  
           <NavSocial/>
         </div>
@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
         <div className="footer__location">
           <i><MdLocationOn/></i>
-          <p>Av. Washington Luiz, 845 - Jardim Leonor, Campinas - SP, 13043-000, Brazil</p>
+          <p>Sede - Av. Washington Luiz, 845 - Jardim Leonor, Campinas - SP, 13043-000, Brazil</p>
         </div>
       </div>
     </div>

@@ -24,7 +24,7 @@ const NavMobile = () => {
           <div className={`navMobile__closed`}>
             <Link to={'/'}><img src={logo} alt="" /></Link>
             <i onClick={toggleClass} className={`${isOpen? 'hide': ''}`}><GiHamburgerMenu/></i>
-            <i onClick={toggleClass} className={`${isOpen? '': 'hide'}`}><GrClose/></i>
+            <i id='x' onClick={toggleClass} className={`${isOpen? '': 'hide'}`}><GrClose/></i>
           </div>
         </div>
         <div className={`${isOpen? 'open': 'hide'}`}>
@@ -36,7 +36,7 @@ const NavMobile = () => {
             <Link to={'agenda'}>Agenda</Link>
             <Link to={'oferta'}>Dízimos e Ofertas</Link>
             <Link to={'nucleo'}>Núcleos</Link>
-            <div><NavSocial/></div>
+            <div id='teste'><NavSocial/></div>
           </div>
         </div>
     </div>

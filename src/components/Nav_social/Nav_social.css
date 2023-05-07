@@ -4,9 +4,8 @@
 }
 
 .container-nav-media img{
-    width: 2.5vw;
     margin-right: 1.4rem;
-
+    width: 30px;
     cursor: pointer;
 }
 .container-nav-media img:hover{

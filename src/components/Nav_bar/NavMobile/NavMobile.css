@@ -35,6 +35,10 @@
     color: white;
     font-size: 2rem;
 }
+#x{
+    color: white;
+}
+
 .hide{
     display: none;
 }
@@ -62,8 +66,9 @@
     border-bottom: 1px solid white;
     text-decoration: none;
     color: white;
-
 }
+
+
 
 .navMobileRoutes div{
     border-bottom:none;
