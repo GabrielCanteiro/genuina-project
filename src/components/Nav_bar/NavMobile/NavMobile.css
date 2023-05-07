@@ -31,12 +31,10 @@
 .navMobile__closed img{
     height: 40px;
 }
+
 .navMobile__closed i{
     color: white;
     font-size: 2rem;
-}
-#x{
-    color: white;
 }
 
 .hide{
@@ -72,6 +70,10 @@
 
 .navMobileRoutes div{
     border-bottom:none;
+}
+
+.navMobileSocial{
+    border-bottom: 3px solid red;
 }
 
 

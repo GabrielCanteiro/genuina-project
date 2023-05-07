@@ -1,8 +1,8 @@
-import React, { useRef, useState } from 'react'
+import React, { useState } from 'react'
 import './NavMobile.css'
 
 import {GiHamburgerMenu} from 'react-icons/gi'
-import { GrClose } from 'react-icons/gr'
+import { AiOutlineClose } from 'react-icons/ai'
 
 import logo from '../../../assets/logo_png.png'
 import { Link } from 'react-router-dom'
@@ -22,9 +22,9 @@ const NavMobile = () => {
     <div className="navMobile">
         <div className="navMobile__container">
           <div className={`navMobile__closed`}>
-            <Link to={'/'}><img src={logo} alt="" /></Link>
+            <Link to={'/'} ><img src={logo} alt="" /></Link>
             <i onClick={toggleClass} className={`${isOpen? 'hide': ''}`}><GiHamburgerMenu/></i>
-            <i id='x' onClick={toggleClass} className={`${isOpen? '': 'hide'}`}><GrClose/></i>
+            <i onClick={toggleClass} className={`${isOpen? '': 'hide'}`}><AiOutlineClose/></i>
           </div>
         </div>
         <div className={`${isOpen? 'open': 'hide'}`}>
@@ -36,7 +36,9 @@ const NavMobile = () => {
             <Link to={'agenda'}>Agenda</Link>
             <Link to={'oferta'}>Dízimos e Ofertas</Link>
             <Link to={'nucleo'}>Núcleos</Link>
-            <div id='teste'><NavSocial/></div>
+            <div className="navMobileSocial">
+            <NavSocial/>
+            </div>
           </div>
         </div>
     </div>
