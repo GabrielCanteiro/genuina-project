@@ -94,7 +94,7 @@ const Oferta = () => {
         <div className="card__oferta_content">
         <h3>Outros meios de pagamento</h3>
         <div className="card__oferta_dados paypal">
-          <Link to={paypalLink}>
+          <Link to={paypalLink} target='blank'>
           <button>
             <h2>Doar com PayPal</h2>
           </button> 
