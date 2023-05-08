@@ -48,11 +48,10 @@
     background-color: #0a4cb6;
 
     font-size: 1.4rem;
-
+    transition: .3s ease-in-out;
 }
 
 .content__homeOferta button:hover{
     background-color: #1164ed;
     scale: 1.1;
-    transition: .3s ease-in-out;
 }

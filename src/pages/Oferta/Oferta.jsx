@@ -63,6 +63,13 @@ const Oferta = () => {
             </CopyToClipboard>
           </i>
 
+          <i>
+          <p>CNPJ: 23.106.496/0001-88</p>
+            <CopyToClipboard text='23.106.496/0001-88'>
+              <RxCopy className='copy' onClick={copied}/>
+            </CopyToClipboard>
+          </i>
+
         </div>
         </div>
       </div>
@@ -96,7 +103,7 @@ const Oferta = () => {
         <div className="card__oferta_dados paypal">
           <Link to={paypalLink} target='blank'>
           <button>
-            <h2>Doar com PayPal</h2>
+            <h2>Ofertar com PayPal</h2>
           </button> 
           </Link>        
         </div>

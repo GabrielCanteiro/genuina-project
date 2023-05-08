@@ -55,6 +55,7 @@ const Map = () => {
 
     return (
       <div className='map-container'>
+      
         {isLoading ?
           <div>
             <img src={loading} alt="" />

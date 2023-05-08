@@ -9,13 +9,13 @@ const HomeAgenda = () => {
   return (
     <div className='container__home_agenda'>
       <div className="header__home_agenda">
-        <h1>Agenda CCGC</h1>
+        <h1>Eventos</h1>
         <span></span>
       </div>
 
       <div className="cards__home_agenda">
         {
-          eventsCampinas.map((events) =>       <Card_agenda
+        eventsCampinas.map((events) => <Card_agenda
         image={events.image}
         ministerio={events.ministerio}
         title={events.title}
