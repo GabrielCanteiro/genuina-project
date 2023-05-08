@@ -1,5 +1,6 @@
 import React from 'react'
 import './Oferta.css'
+
 import { CopyToClipboard } from 'react-copy-to-clipboard'
 import {RxCopy} from 'react-icons/rx'
 import Swal from 'sweetalert2'
@@ -7,9 +8,12 @@ import Swal from 'sweetalert2'
 import stdLogo from '../../assets/logo_santander.png'
 import pagsegLogo from '../../assets/pagseguro_logo.png'
 import paypalLogo from '../../assets/logo_paypal.png'
+import { Link } from 'react-router-dom'
 
 
 const Oferta = () => {
+  const paypalLink = 'https://www.paypal.com/donate/?hosted_button_id=3GXDZHGHENE5E'
+
   function copied(){
     const Toast = Swal.mixin({
       toast: true,
@@ -89,8 +93,12 @@ const Oferta = () => {
         <span></span>
         <div className="card__oferta_content">
         <h3>Outros meios de pagamento</h3>
-        <div className="card__oferta_dados">
-          
+        <div className="card__oferta_dados paypal">
+          <Link to={paypalLink}>
+          <button>
+            <h2>Doar com PayPal</h2>
+          </button> 
+          </Link>        
         </div>
         </div>
       </div>

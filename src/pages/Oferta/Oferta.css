@@ -5,6 +5,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
+    margin-bottom: 5vh;
 }
 
 .card__oferta_logo img{
@@ -53,6 +55,30 @@
     display: flex; 
     align-items: center;
     justify-content: space-between;
+}
+
+.paypal{
+    display: flex;
+    justify-content: center;
+}
+
+.card__oferta_dados button{
+    margin-top: 10px;
+    padding: .7rem 1rem .7rem 1rem;
+    border: none;
+    background-color: #0267EB;
+    color: white;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    text-shadow: 1px 1px 1px black;
+
+}
+
+.card__oferta_dados button:hover{
+    background-color: #388eff;
+    scale: 1.05;
+
 }
 
 .oferta__text{
