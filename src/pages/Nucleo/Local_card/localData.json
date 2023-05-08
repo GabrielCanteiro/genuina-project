@@ -1,0 +1,89 @@
+{
+    "igrejas": [
+      {
+        "id":1,
+        "title": "Sede - Campinas, SP",
+        "time_1":"Terça-feira - 20:00",
+        "time_2":"Quinta-feira - 20:00",
+        "time_3":"Domingo - 09:00",
+        "addressLink": "https://goo.gl/maps/bXks45k6LxDPoqAR6"
+      },
+      {
+        "id":2,
+        "title": "Tucuruvi, SP",
+        "time_1":"Terça-feira - 20:00",
+        "time_2":"Quinta-feira - 20:00",
+        "time_3":"Domingo - 09:00",
+        "addressLink": "https://www.google.com/maps/dir/41.1445167,-8.6032237/S%C3%A3o+Paulo+Tucuruvi/@6.8291727,-67.2120895,3z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x94ce59db5025c9c9:0xad16aac52a6cf5d7!2m2!1d-46.6108174!2d-23.473904"
+      },
+      {
+        "id":3,
+        "title": "Hortolândia, SP",
+        "time_1":"Terça-feira - 20:00",
+        "time_2":"Quinta-feira - 20:00",
+        "time_3":"Domingo - 09:00",
+        "addressLink": "https://www.google.com/maps/dir/?api=1&destination=Hortol%C3%A2ndia&destination_place_id=ChIJIyJ6HdXAxpQRn0jlcxx9RbE"
+      },
+      {
+        "id":4,
+        "title": "Sumaré, SP",
+        "time_1":"Terça-feira - 20:00",
+        "time_2":"Quinta-feira - 20:00",
+        "time_3":"Domingo - 09:00",
+        "addressLink": "https://www.google.com/maps/dir/41.1496453,-8.6050744/Sumar%C3%A9/@7.0857388,-67.524677,3z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x94c61a1f0ffe3cb5:0x386c7e9205fb4bcb!2m2!1d-47.2707792!2d-22.8244116"
+      },
+      {
+        "id":5,
+        "title": "Jundiaí, SP",
+        "time_1":"Terça-feira - 20:00",
+        "time_2":"Quinta-feira - 20:00",
+        "time_3":"Domingo - 09:00",
+        "addressLink": "https://www.google.com/maps/dir/41.1445167,-8.6032237/Jundia%C3%AD/@6.9421009,-67.3433017,3z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x94ca65eac39b4337:0x30520af5e933a1fa!2m2!1d-46.8892222!2d-23.1856528"
+      },
+      {
+        "id":6,
+        "title": "Indaiatuba, SP",
+        "time_1":"Terça-feira - 20:00",
+        "time_2":"Quinta-feira - 20:00",
+        "time_3":"Domingo - 09:00",
+        "addressLink": "https://www.google.com/maps/dir/41.1445167,-8.6032237/Indaiatuba/@6.9803203,-67.499969,3z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x94cc872454956d71:0x4dbfd49fda37c2b8!2m2!1d-47.2080171!2d-23.0881389"
+      }
+
+    ],
+
+    "congregacoes":[
+        {
+            "id":1,
+            "title": "Jd. São Domingos, SP",
+            "time_1":"Terça-feira - 20:00",
+            "time_2":"Quinta-feira - 20:00",
+            "time_3":"Domingo - 09:00",
+            "addressLink": "rua tal"
+          },
+          {
+            "id":2,
+            "title": "Jd. Vila Vitória, SP",
+            "time_1":"Terça-feira - 20:00",
+            "time_2":"Quinta-feira - 20:00",
+            "time_3":"Domingo - 09:00",
+            "addressLink": "https://www.google.com/maps/dir/41.1445167,-8.6032237/Vila+Vit%C3%B3ria/@8.069038,-63.9820339,3z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x94ce80d35f8be323:0x5cf8d8bb900c1769!2m2!1d-40.3384748!2d-20.3196644"
+          },
+          {
+            "id":3,
+            "title": "Jd. Florence, SP",
+            "time_1":"Terça-feira - 20:00",
+            "time_2":"Quinta-feira - 20:00",
+            "time_3":"Domingo - 09:00",
+            "addressLink": "https://www.google.com/maps/dir/41.1445167,-8.6032237/Jardim+Florence/@7.0379674,-67.4739891,3z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x94cc8fc335b85387:0xcb43c24ee78db536!2m2!1d-47.164343!2d-22.9410972"
+          },
+          {
+            "id":4,
+            "title": "Itaim Paulista, SP",
+            "time_1":"Terça-feira - 20:00",
+            "time_2":"Quinta-feira - 20:00",
+            "time_3":"Domingo - 09:00",
+            "addressLink": "https://www.google.com/maps/dir/41.1445167,-8.6032237/S%C3%A3o+Paulo+Itaim/@6.7861582,-67.2487311,3z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x94ce1714f9b78a35:0x261ff99a8380d92b!2m2!1d-46.6780743!2d-23.5837476"
+          }
+    ]
+}
+  

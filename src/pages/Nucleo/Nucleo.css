@@ -1,0 +1,12 @@
+.nucleo{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.container__nucleo{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5vh;
+}

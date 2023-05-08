@@ -1,0 +1,53 @@
+.localCard{
+    padding:.3rem;
+    margin: 0 auto;
+}
+.container__LocalCard{
+    border-radius: 1rem;
+    min-width: 250px;
+    
+    display: flex;
+    margin-bottom: 2vh;
+
+    -webkit-box-shadow: 1px 0px 8px 1px rgba(0,0,0,0.11);
+    -moz-box-shadow: 1px 0px 8px 1px rgba(0,0,0,0.11);
+    box-shadow: 1px 0px 8px 1px rgba(0,0,0,0.11);
+}
+
+.content__localCard{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.info__localCard h2{
+    margin-bottom: vh;
+}
+.time__localCard{
+    margin-bottom: 1vh;
+}
+.time__localCard p{
+    padding: .1rem;
+}
+
+.info__localCard button{
+    text-transform: uppercase;
+    border-radius: 2rem;
+    font-size: 1rem;
+    border: none;
+    justify-content: center;
+    background-color: #0267EB;
+    color: white;
+
+    padding: .7rem 1rem .7rem 1rem;
+    transition: .4s;
+    cursor: pointer;
+
+}
+
+.info__localCard button:hover{
+    scale: 1.03;
+    transition: .4s;
+}
