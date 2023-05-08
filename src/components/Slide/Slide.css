@@ -4,7 +4,7 @@
 
 .slider__container img{
     width: 100%;
-    max-height: 70vh;
+    max-height: 80vh;
 
     object-fit: fill;
     align-items: center;

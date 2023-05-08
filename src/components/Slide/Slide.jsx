@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const Slide = () => {
 
   const banners = {
-    banner_1:{url:"https://images.unsplash.com/photo-1533282960533-51328aa49826?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2742&q=80"},
+    banner_1:{url:"https://images.unsplash.com/photo-1572061486195-d811e12d0a10?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGNocmlzdHxlbnwwfDB8MHx8&auto=format&fit=crop&w=800&q=60"},
     banner_2:{url:"https://images.unsplash.com/photo-1533282960533-51328aa49826?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2742&q=80"},
     banner_3:{url:"https://images.unsplash.com/photo-1533282960533-51328aa49826?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2742&q=80"},
     
