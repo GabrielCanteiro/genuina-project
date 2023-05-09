@@ -1,2 +1,9 @@
 key google maps
 AIzaSyDqDj2XM2zn8AxTR-_JM0xtf0MDCyGGDSI
+
+  const API_KEY = 'AIzaSyDqDj2XM2zn8AxTR-_JM0xtf0MDCyGGDSI';
+  const CHANNEL_ID = 'UC4_255s7fdcjk9p21RZFY2w';
+
+
+  https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails&channelId=UC4_255s7fdcjk9p21RZFY2w&key=AIzaSyDqDj2XM2zn8AxTR-_JM0xtf0MDCyGGDSI
+

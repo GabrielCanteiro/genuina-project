@@ -1,10 +1,12 @@
 import React from 'react'
 import './Ministerio.css'
+import DevelopPage from '../../components/developpage/developPage'
 
 const Ministerios = () => {
   return (
     <div className='ministerios'>
-    Ministerios</div>
+      <DevelopPage/>
+    </div>
   )
 }
 

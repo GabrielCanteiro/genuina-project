@@ -6,7 +6,7 @@
     
     display: flex;
 
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
 
@@ -46,6 +46,7 @@
     cursor: pointer;
     color: white;
     background-color: #0a4cb6;
+    margin-bottom: 2vh;
 
     font-size: 1.4rem;
     transition: .3s ease-in-out;
@@ -54,4 +55,10 @@
 .content__homeOferta button:hover{
     background-color: #1164ed;
     scale: 1.1;
+}
+
+
+@media screen and (max-width:760px) {
+
+
 }

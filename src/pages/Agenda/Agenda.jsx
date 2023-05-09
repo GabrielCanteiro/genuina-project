@@ -1,9 +1,12 @@
 import React from 'react'
 import './Agenda.css'
+import DevelopPage from '../../components/developpage/developPage'
 
 const Agenda = () => {
   return (
-    <div className='agenda'>Agenda</div>
+    <div className='agenda'>
+      <DevelopPage/>
+    </div>
   )
 }
 
