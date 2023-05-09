@@ -11,7 +11,7 @@ function Nav_middle() {
           <li><Link to={'/igreja'}>Igreja</Link></li>
           <li><Link to={'/ministerios'}>Ministérios</Link></li>
           <li><Link to={'/aovivo'}>Ao Vivo</Link></li>
-          <li><Link to={'/agenda'}>Agenda</Link></li>
+          {/* <li><Link to={'/agenda'}>Agenda</Link></li> */}
           <li><Link to={'/oferta'}>Dízimos e Ofertas</Link></li>
           <li><Link to={'/nucleo'}>Núcleos</Link></li>
         </ul>
