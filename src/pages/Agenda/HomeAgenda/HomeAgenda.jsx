@@ -15,7 +15,7 @@ const HomeAgenda = () => {
 
       <div className="cards__home_agenda">
         {
-        eventsCampinas.map((events) => <Card_agenda
+        eventsCampinas.map((events, key) => <Card_agenda key={key}
         image={events.image}
         ministerio={events.ministerio}
         title={events.title}

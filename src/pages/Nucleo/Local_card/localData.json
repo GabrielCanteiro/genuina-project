@@ -6,7 +6,10 @@
         "time_1":"Terça-feira - 20:00",
         "time_2":"Quinta-feira - 20:00",
         "time_3":"Domingo - 09:00",
-        "addressLink": "https://www.google.com/maps/dir//Av.+Washington+Luiz,+845+-+Jardim+Leonor+Campinas+-+SP+13041-005+Brazil/@-22.9238506,-47.0568195,18z/data=!4m5!4m4!1m0!1m2!1m1!1s0x94c8cf2b6bc8e2b9:0x113279d70b47794b"
+        "addressLink": "https://www.google.com/maps/dir//Av.+Washington+Luiz,+845+-+Jardim+Leonor+Campinas+-+SP+13041-005+Brazil/@-22.9238506,-47.0568195,18z/data=!4m5!4m4!1m0!1m2!1m1!1s0x94c8cf2b6bc8e2b9:0x113279d70b47794b",
+        "lat":-22.92382330474514,
+        "lng":-47.05682491068882,
+        "address":"Av. Washington Luiz, 845 - Jardim Leonor, Campinas - SP, 13041-005, Brazil"
       },
       {
         "id":2,
@@ -14,7 +17,10 @@
         "time_1":"Terça-feira - 20:00",
         "time_2":"Quinta-feira - 20:00",
         "time_3":"Domingo - 09:00",
-        "addressLink": "https://www.google.com/maps/dir//Av.+Guapira,+903+-+Tucuruvi,+S%C3%A3o+Paulo+-+State+of+S%C3%A3o+Paulo,+Brazil/@-23.4766257,-46.6373158,13z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x94cef674dc34db73:0x24a55d4a6e3c90ab!2m2!1d-46.596116!2d-23.4766311!3e3"
+        "addressLink": "https://www.google.com/maps/dir//Av.+Guapira,+903+-+Tucuruvi,+S%C3%A3o+Paulo+-+State+of+S%C3%A3o+Paulo,+Brazil/@-23.4766257,-46.6373158,13z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x94cef674dc34db73:0x24a55d4a6e3c90ab!2m2!1d-46.596116!2d-23.4766311!3e3",
+        "lat":-23.4765259641948,
+        "lng":-46.59609742177113,
+        "address":"Av. Guapira, 903 - Tucuruvi, São Paulo - SP, 02265-001, Brazil"
       },
       {
         "id":3,
@@ -22,7 +28,10 @@
         "time_1":"Terça-feira - 20:00",
         "time_2":"Quinta-feira - 20:00",
         "time_3":"Domingo - 09:00",
-        "addressLink": "https://www.google.com/maps/dir//Rua+Ot%C3%A1vio+Rosolen,+1287+-+Jardim+Terras+de+Santo+Antonio,+Hortol%C3%A2ndia+-+State+of+S%C3%A3o+Paulo,+Brazil/@-22.9082064,-47.2237088,13z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x94c8b9b6df867221:0x7e6d46732500867d!2m2!1d-47.182509!2d-22.9082117!3e3"
+        "addressLink": "https://www.google.com/maps/dir//Rua+Ot%C3%A1vio+Rosolen,+1287+-+Jardim+Terras+de+Santo+Antonio,+Hortol%C3%A2ndia+-+State+of+S%C3%A3o+Paulo,+Brazil/@-22.9082064,-47.2237088,13z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x94c8b9b6df867221:0x7e6d46732500867d!2m2!1d-47.182509!2d-22.9082117!3e3",
+        "lat":-22.908198481654512, "lng":-47.18250704111498,
+        "address":"Rua Otávio Rosolen, 1287 - Jardim Terras de Santo Antonio, Hortolândia - SP, 13185-563, Brazil"
+
       },
       {
         "id":4,
@@ -30,7 +39,10 @@
         "time_1":"Terça-feira - 20:00",
         "time_2":"Quinta-feira - 20:00",
         "time_3":"Domingo - 09:00",
-        "addressLink": "https://www.google.com/maps/dir//R.+Pres.+Washington+Lu%C3%ADs,+519+-+Vila+Carlota,+Sumar%C3%A9+-+State+of+S%C3%A3o+Paulo,+Brazil/@-22.8168513,-47.2491533,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c8bd988b0ebc3f:0xdd6db9286c7f8b0d!2m2!1d-47.246573!2d-22.8168513"
+        "addressLink": "https://www.google.com/maps/dir//R.+Pres.+Washington+Lu%C3%ADs,+519+-+Vila+Carlota,+Sumar%C3%A9+-+State+of+S%C3%A3o+Paulo,+Brazil/@-22.8168513,-47.2491533,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c8bd988b0ebc3f:0xdd6db9286c7f8b0d!2m2!1d-47.246573!2d-22.8168513",
+        "lat":-22.816846355352308, "lng":-47.24657435605163,
+        "address":"R. Pres. Washington Luís, 519 - Vila Carlota, Sumaré - SP, 13175-482, Brazil"
+
       },
       {
         "id":5,
@@ -38,7 +50,10 @@
         "time_1":"Terça-feira - 20:00",
         "time_2":"Quinta-feira - 20:00",
         "time_3":"Domingo - 09:00",
-        "addressLink": "https://www.google.com/maps/dir//Av.+Dr.+Cavalcanti,+728+-+Centro,+Jundia%C3%AD+-+State+of+S%C3%A3o+Paulo,+Brazil/@-23.1902116,-46.9212574,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94cf26ebb9b9db87:0xf23008511071add6!2m2!1d-46.8799718!2d-23.190217"
+        "addressLink": "https://www.google.com/maps/dir//Av.+Dr.+Cavalcanti,+728+-+Centro,+Jundia%C3%AD+-+State+of+S%C3%A3o+Paulo,+Brazil/@-23.1902116,-46.9212574,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94cf26ebb9b9db87:0xf23008511071add6!2m2!1d-46.8799718!2d-23.190217",
+        "lat":-23.190212859280056, "lng":-46.87996644019193,
+        "address":"Av. Dr. Cavalcanti, 728 - Centro, Jundiaí - SP, 13201-003, Brazil"
+
       },
       {
         "id":6,
@@ -46,7 +61,10 @@
         "time_1":"Terça-feira - 20:00",
         "time_2":"Quinta-feira - 20:00",
         "time_3":"Domingo - 09:00",
-        "addressLink": "https://www.google.com/maps/dir//Rua+das+Hort%C3%AAncias,+142+-+Jardim+Novo+Mundo,+Jundia%C3%AD+-+State+of+S%C3%A3o+Paulo,+Brazil/@-23.1951527,-46.917346,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94cf243a9d5b1c97:0x849dd07ee1359a7c!2m2!1d-46.9147657!2d-23.1951527"
+        "addressLink": "https://www.google.com/maps/dir//R.+das+Hort%C3%AAncias,+142+-+Jardim+Santa+Cruz,+Indaiatuba+-+SP,+13344-030,+Brazil/@-23.0962105,-47.2169119,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94cf4caaa0581623:0x37f2c05b24cfce4f!2m2!1d-47.214337!2d-23.0962105",
+        "lat":-23.096180872442307, "lng":-47.21433700407125,
+        "address":"R. das Hortências, 142 - Jardim Santa Cruz, Indaiatuba - SP, 13344-030, Brazil"
+
       }
 
     ],
@@ -58,7 +76,10 @@
             "time_1":"Terça-feira - 20:00",
             "time_2":"Quinta-feira - 20:00",
             "time_3":"Domingo - 09:00",
-            "addressLink": "https://www.google.com/maps/dir//Av.+Ant%C3%B4nio+Salles+Proen%C3%A7a,+783+-+Jardim+Sao+Domingos,+Campinas+-+SP,+13053-330,+Brazil/@-23.0430829,-47.1073315,17z/data=!4m18!1m8!3m7!1s0x94c8cadc04262bad:0x992f84661b852590!2sAv.+Ant%C3%B4nio+Salles+Proen%C3%A7a,+783+-+Jardim+Sao+Domingos,+Campinas+-+SP,+13053-330,+Brazil!3b1!8m2!3d-23.043083!4d-47.1024606!16s%2Fg%2F11flg35bwp!4m8!1m0!1m5!1m1!1s0x94c8cadc04262bad:0x992f84661b852590!2m2!1d-47.1024606!2d-23.043083!3e3"
+            "addressLink": "https://www.google.com/maps/dir//Av.+Ant%C3%B4nio+Salles+Proen%C3%A7a,+783+-+Jardim+Sao+Domingos,+Campinas+-+SP,+13053-330,+Brazil/@-23.0430829,-47.1073315,17z/data=!4m18!1m8!3m7!1s0x94c8cadc04262bad:0x992f84661b852590!2sAv.+Ant%C3%B4nio+Salles+Proen%C3%A7a,+783+-+Jardim+Sao+Domingos,+Campinas+-+SP,+13053-330,+Brazil!3b1!8m2!3d-23.043083!4d-47.1024606!16s%2Fg%2F11flg35bwp!4m8!1m0!1m5!1m1!1s0x94c8cadc04262bad:0x992f84661b852590!2m2!1d-47.1024606!2d-23.043083!3e3",
+            "lat":-23.04308546650249, "lng":-47.10246740121182,
+            "address":"Av. Antônio Salles Proença, 783 - Jardim Sao Domingos, Campinas - SP, 13053-330, Brazil"
+
           },
           {
             "id":2,
@@ -66,7 +87,10 @@
             "time_1":"Terça-feira - 20:00",
             "time_2":"Quinta-feira - 20:00",
             "time_3":"Domingo - 09:00",
-            "addressLink": "https://www.google.com/maps/dir//R.+Benin,+47+-+Nucleo+Res.+Vila+Vitoria,+Campinas+-+SP,+Brazil/@-22.9784547,-47.1738058,17z/data=!4m18!1m8!3m7!1s0x94c8b6596e9ed665:0xe04576bd7166e505!2sR.+Benin,+47+-+Nucleo+Res.+Vila+Vitoria,+Campinas+-+SP,+Brazil!3b1!8m2!3d-22.9784547!4d-47.1712309!16s%2Fg%2F11c2h571zy!4m8!1m0!1m5!1m1!1s0x94c8b6596e9ed665:0xe04576bd7166e505!2m2!1d-47.1712309!2d-22.9784547!3e3"
+            "addressLink": "https://www.google.com/maps/dir//R.+Benin,+47+-+Nucleo+Res.+Vila+Vitoria,+Campinas+-+SP,+Brazil/@-22.9784547,-47.1738058,17z/data=!4m18!1m8!3m7!1s0x94c8b6596e9ed665:0xe04576bd7166e505!2sR.+Benin,+47+-+Nucleo+Res.+Vila+Vitoria,+Campinas+-+SP,+Brazil!3b1!8m2!3d-22.9784547!4d-47.1712309!16s%2Fg%2F11c2h571zy!4m8!1m0!1m5!1m1!1s0x94c8b6596e9ed665:0xe04576bd7166e505!2m2!1d-47.1712309!2d-22.9784547!3e3",
+            "lat":-22.978445930388762, "lng":-47.17122791513729,
+            "address":"R. Benin, 47 - Nucleo Res. Vila Vitoria, Campinas - SP, Brazil"
+
           },
           {
             "id":3,
@@ -74,7 +98,10 @@
             "time_1":"Terça-feira - 20:00",
             "time_2":"Quinta-feira - 20:00",
             "time_3":"Domingo - 09:00",
-            "addressLink": "https://www.google.com/maps/dir//Rua+Masami+Katayama,+253+-+Jardim+Florence,+Campinas+-+State+of+S%C3%A3o+Paulo,+Brazil/@-22.9422931,-47.1601457,17z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x94c8b7bfd74b522f:0x8fb377d945b9c30c!2m2!1d-47.1575708!2d-22.9422931!3e3"
+            "addressLink": "https://www.google.com/maps/dir//Rua+Masami+Katayama,+253+-+Jardim+Florence,+Campinas+-+State+of+S%C3%A3o+Paulo,+Brazil/@-22.9422931,-47.1601457,17z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x94c8b7bfd74b522f:0x8fb377d945b9c30c!2m2!1d-47.1575708!2d-22.9422931!3e3",
+            "lat":-22.942291617899333, "lng":-47.15757090032246,
+            "address":"R. Masami Katayama, 253 - Jardim Florence, Campinas - SP, 13059-044, Brazil"
+
           },
           {
             "id":4,
@@ -82,7 +109,10 @@
             "time_1":"Terça-feira - 20:00",
             "time_2":"Quinta-feira - 20:00",
             "time_3":"Domingo - 09:00",
-            "addressLink": "https://www.google.com/maps/dir//Rua+dos+Igarap%C3%A9s,+861+-+Jardim+dos+Ipes,+S%C3%A3o+Paulo+-+State+of+S%C3%A3o+Paulo,+Brazil/@-23.5025595,-46.4154051,17z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x94ce638efdfec095:0xa3192040b933eb4a!2m2!1d-46.4128302!2d-23.5025595!3e3"
+            "addressLink": "https://www.google.com/maps/dir//Rua+dos+Igarap%C3%A9s,+861+-+Jardim+dos+Ipes,+S%C3%A3o+Paulo+-+State+of+S%C3%A3o+Paulo,+Brazil/@-23.5025595,-46.4154051,17z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x94ce638efdfec095:0xa3192040b933eb4a!2m2!1d-46.4128302!2d-23.5025595!3e3",
+            "lat":-23.502556410088285, "lng":-46.412828861379246,
+            "address":"Rua dos Igarapés, 861 - Jardim dos Ipes, São Paulo - SP, 08161-380, Brazil"
+
           }
     ]
 }

@@ -1,4 +1,4 @@
-.map{
+.map-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,4 +7,11 @@
     margin-bottom: 5vh;
 }
 
+.infoWindow{
+    max-width: 200px;
+}
+
+.infoWindow a{
+    font-size: 1rem;
+}
 
