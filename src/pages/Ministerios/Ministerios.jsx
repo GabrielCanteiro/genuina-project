@@ -1,8 +1,10 @@
 import React from 'react'
+import './Ministerio.css'
 
 const Ministerios = () => {
   return (
-    <div>Ministerios</div>
+    <div className='ministerios'>
+    Ministerios</div>
   )
 }
 

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { GoogleMap, InfoWindow, Marker, useJsApiLoader } from '@react-google-maps/api';
 import loading from '../../assets/loading.svg'
 import blueDot from '../../assets/blueDot.png'
+import churchDot from '../../assets/church_dot.png'
 
 import data from '../../pages/Nucleo/Local_card/localData.json'
 import './Map.css'
@@ -65,12 +66,20 @@ const Map = () => {
               clickableIcons={true}
             >
               {data.igrejas.map((local,key) => <Marker
+                icon={{
+                  url: churchDot,
+                   scaledSize: new window.google.maps.Size(30, 30), 
+                }}
                 key={key}
                 position={{lat:local.lat,  lng:local.lng}}
                 onClick={()=>{handleMarkerClick(local)}}
               />)}
 
               {data.congregacoes.map((local,key) => <Marker
+                icon={{
+                  url: churchDot,
+                   scaledSize: new window.google.maps.Size(30, 30), 
+                }}
                 position={{lat:local.lat, lng:local.lng}}
                 onClick={()=>{handleMarkerClick(local)}}
 
