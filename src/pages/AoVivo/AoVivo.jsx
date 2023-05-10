@@ -22,7 +22,6 @@ const AoVivo = () => {
         text: "Para mais vídeos asceda para o nosso Canal no Youtube",
         icon: 'warning',
         confirmButtonColor: '#3085d6',
-        cancelButtonColor: '#d33',
       })
     }
   }
@@ -81,7 +80,7 @@ const AoVivo = () => {
 
   return (
     <div className="aovivo">
-          <div className='container__video'>
+      <div className='container__video'>
         {liveVideos.map((video) => (
           <Link className='container__video_card' key={video.id} to={`https://www.youtube.com/watch?v=${video.id}`} target='blank'>
             <img src={video.thumbnailUrl} alt={`${video.title} Thumbnail`} />

@@ -4,6 +4,7 @@ import Footer from './components/Footer/Footer'
 
 import { Outlet } from 'react-router-dom'
 import NavMobile from './components/Nav_bar/NavMobile/NavMobile'
+import ScrollTop from './components/ScrollTop/Scrolltop'
 function App() {
 
   return (
@@ -11,6 +12,7 @@ function App() {
       <NavBar/>
       <NavMobile/>
       <div className="app__pages">
+        <ScrollTop/>
         <Outlet/>
       </div>
       <Footer/>
