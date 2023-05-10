@@ -1,19 +1,35 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
+import Swal from 'sweetalert2'
 
 import './AoVivo.css'
 
 const AoVivo = () => {
-  const [channelInfo, setChannelInfo] = useState(null);
   const [liveVideos, setLiveVideos] = useState([]);
   const [limit, setLimit] = useState(10)
+  const [count, setCount] = useState(0)
 
   const API_KEY = 'AIzaSyDqDj2XM2zn8AxTR-_JM0xtf0MDCyGGDSI';
   const CHANNEL_ID = 'UC4_255s7fdcjk9p21RZFY2w';
 
+  function alertLimit(){
+    setCount((prevCount) => prevCount + 1)
+
+    if(count>=4){
+      Swal.fire({
+        title: 'Atingimos o limite!',
+        text: "Para mais vídeos asceda para o nosso Canal no Youtube",
+        icon: 'warning',
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+      })
+    }
+  }
+
   function loadMore(){
       setLimit((prevLimit) => prevLimit + 10)
+      alertLimit()
   }
 
   useEffect(() => {
