@@ -21,7 +21,6 @@ const Footer = () => {
         <Link to={'igreja'}>Igreja</Link>
         <Link to={'ministerios'}>Ministérios</Link>
         <Link to={'aovivo'}>Ao Vivo</Link>
-        <Link to={'agenda'}>Agenda</Link>
         <Link to={'oferta'}>Dízimos e Ofertas</Link>
         <Link to={'nucleo'}>Núcleos</Link>
         </div>

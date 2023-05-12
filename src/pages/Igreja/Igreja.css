@@ -1,0 +1,15 @@
+.igreja{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 5vh;
+}
+
+.container__igreja h1{
+    margin-bottom: 3vh;
+
+}
+
+.container__igreja p{
+    font-size: 1.3rem;
+}
